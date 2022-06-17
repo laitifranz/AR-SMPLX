@@ -110,7 +110,7 @@ We created the c3d file using the [OptiTrack wear](https://optitrack.com/accesso
 Then, in order to convert the c3d file into a JSON file, we used [Soma](https://github.com/nghorbani/soma) and [MoSh++](https://github.com/nghorbani/moshpp).
 
 Later, we read the JSON file in the [SMPL-X](Assets/Scripts/SMPLX/SMPLX.cs) script and we animated the metahuman.\
-Successively, we implemented the animation of the metahuman which starts when we are close to it. We chose 4 meters, but you can change it in the [SMPL-X](Assets/Scripts/SMPLX/SMPLX.cs) script. 
+Successively, we implemented the animation of the metahuman which starts when we are close to it. We chose 4 meters, but you can change it in the [SMPL-X](Assets/Scripts/SMPLX/SMPLX.cs) script.
 
 
 
@@ -145,7 +145,7 @@ We provide two GIFs to show how the app looks like:
 
 In the *first* GIF, we instantiate the SMPLX in a certain position and we animate it when we are close to the object.
 
-In the *second* GIF we instantiate the SMPLX and we animate it when we trigger it. After that, we go far from it (more than 4 meters) and the animation correctly stops.
+In the *second* GIF we do the same steps as before but when we go far from the object (more than 4 meters), the animation correctly stops.
 
 <!-- CONCLUSIONS -->
 ## Further works
