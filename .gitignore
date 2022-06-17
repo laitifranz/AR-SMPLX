@@ -3,8 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,unity
 
 # Added manually
-SMPLX/Models
-SMPLX/Prefabs
+InitCodeMarker
 ### Unity ###
 # This .gitignore file should be placed at the root of your Unity project directory
 #
