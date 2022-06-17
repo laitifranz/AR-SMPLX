@@ -48,7 +48,7 @@ This is the repository for the project of the course Computer Vision 2021-2022 @
 
 The game engine used is [Unity](https://unity.com) version 2021.3 and the application was tested on iOS and Android platforms.
 The 3D model for the humanoid used in this project is the [SMPL-X](https://smpl-x.is.tue.mpg.de/).\
-For the animation of the metahuman, we used the [OptiTrack](https://optitrack.com/) system available at the CIMI Laboratory to track body movements. 
+For the animation of the metahuman, we used the [OptiTrack](https://optitrack.com/) system available at the Multisensory Interactions Lab to track body movements. 
 
 We proposed a scenario where the metahuman is a personal trainer. The exercises are 4: warm-up, first training phase, second training phase and stretching.
 <!-- WORKFLOW -->
@@ -171,7 +171,7 @@ This project is only for educational purposes.
 
 ## Acknowledgments
 
-We thank the MMLab and the University of Trento for the opportunity to use the OptiTrack system available at the [CIMI Laboratory](https://www.cimil.disi.unitn.it).
+We thank the MMLab and the University of Trento for the opportunity to use the OptiTrack system available at the Multisensory Interactions Lab.
 
 We used the 3D model human SMPL-X available at https://smpl-x.is.tue.mpg.de/
 
