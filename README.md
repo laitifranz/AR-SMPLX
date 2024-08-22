@@ -1,4 +1,8 @@
-<div id="top"></div>
+<div align="center">
+    <a href="https://unity.com"><img alt="Unity" src="https://img.shields.io/badge/-Unity-FFFFFF?logo=unity&logoColor=black"></a>
+    <a href="https://www.android.com"><img alt="Android" src="https://img.shields.io/badge/Android-34A853?logo=android&logoColor=white"></a>
+    <a href="https://www.apple.com"><img alt="iOS" src="https://img.shields.io/badge/iOS-000000?logo=apple&logoColor=white"></a>
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -15,32 +19,26 @@
 </div>
 
 
+<div align="center">
+    <a href=#about-the-project>About</a>
+    •
+    <a href=#getting-started-man_technologist>Getting Started</a>
+    •
+    <a href=#animation-of-metahuman-man_dancing>Animation of Metahuman</a>
+    •
+    <a href=#ar-implementation-goggles >AR Implementation</a>
+    •
+    <a href=#usage-iphone >Usage</a>
+    •
+    <a href=#demo-movie_camera >Demo</a>
+    •
+    <a href=#future-works >Future Works</a>
+</div>
+<br>
 
-<!-- TABLE OF CONTENTS -->
-<details open>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About the project</a>
-      <ul>
-        <li><a href="#workflow">Workflow</a></li>
-      </ul>
-    </li>
-    <li><a href="#getting-started-man_technologist">Getting Started</a></li>
-    <li><a href="#animation-of-the-metahuman-man_dancing">Animation of the metahuman</a></li>
-    <li><a href="#ar-implementation-goggles">AR implementation</a></li>
-    <li><a href="#usage-iphone">Usage</a></li>
-    <li><a href="#demo">Demo</a></li>
-    <li><a href="#further-works">Further works</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contacts</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#disclaimer">Disclaimer</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
-## About the project
+## About the Project
 
 **The project aims to animate a metahuman in an augmented reality application.**
 
@@ -87,14 +85,16 @@ We proposed a scenario where the metahuman is a personal trainer. The exercises 
 
 Otherwise, if you would like to test the scene in the Unity simulator, you have to adapt the code and the scene to work with the Unity simulator. 
 
-NOTE: 
-- For the iOS world, ARKit requires iOS 11.0 or later and an iOS device with an A9 or later processor. You also need the software XCode (only available on macOS) :cry:
-- For the Android world, you have to check if your device supports ARCore. Check it on https://developers.google.com/ar/devices
-- The application was tested on an iPhone XS with iOS 15.5
+> [!NOTE]
+>  For the iOS world, ARKit requires iOS 11.0 or later and an iOS device with an A9 or later processor. You also need the software XCode (only available on macOS :cry:)
+> 
+> For the Android world, you have to check if your device supports ARCore. Check it on https://developers.google.com/ar/devices
+> 
+> The application was tested on an iPhone XS with iOS 15.5
 
 
 <!-- ANIMATE THE METAHUMAN-->
-## Animation of the metahuman :man_dancing:
+## Animation of Metahuman :man_dancing:
 
 For the animation of the metahuman we used a JSON file structured as follows:
 ```
@@ -135,7 +135,7 @@ Later, we implemented the ground plane. When you start the application, the came
 
 
 <!-- DEMO -->
-## Demo
+## Demo :movie_camera:
 We provide two GIFs to show how the app looks like:
 <p align="center">
   <img alt="Animation GIF" src="images/animation.gif" width="45%">
@@ -148,22 +148,11 @@ In the *first* GIF, we instantiate the SMPLX in a certain position and we animat
 In the *second* GIF we do the same steps as before but when we go far from the object (more than 4 meters), the animation correctly stops.
 
 <!-- CONCLUSIONS -->
-## Further works
+## Future Works
 - [ ] Implement more animations
 - [ ] Add voice to the SMPLX
 - [ ] Consider a more high realistic texture
 - [ ] Migrate the project to Unreal Engine
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-## Contact
-
-Francesco Laiti - [Github](https://github.com/laitifranz/) - [Linkedin](https://www.linkedin.com/in/francesco-laiti/) - [UniTN email](mailto:francesco.laiti@studenti.unitn.it) | Davide Lobba - [Github](https://github.com/davidelobba/) - [Linkedin](https://www.linkedin.com/in/davide-lobba-659739185) - [UniTN email](mailto:davide.lobba@studenti.unitn.it)
 
 ## Disclaimer
 
@@ -174,7 +163,4 @@ This project is only for educational purposes.
 We thank the MMLab and the University of Trento for the opportunity to use the OptiTrack system available at the Multisensory Interactions Lab.
 
 We used the 3D model human SMPL-X available at https://smpl-x.is.tue.mpg.de/
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
